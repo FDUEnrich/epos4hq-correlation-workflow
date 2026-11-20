@@ -19,4 +19,3 @@ def generator_environment(template,work,base_env=None):
                HTO=str(work/'histo')+'/',CHK=str(work/'check')+'/',LC_ALL='C',LANG='C')
     for k in ('seedj','seedc','seedi'):env.pop(k,None)
     return env
-

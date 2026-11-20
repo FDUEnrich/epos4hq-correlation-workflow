@@ -339,4 +339,3 @@ if __name__=='__main__':
         import analysis
         getattr(analysis,cmd)()
     else:raise ValueError('unknown command')
-

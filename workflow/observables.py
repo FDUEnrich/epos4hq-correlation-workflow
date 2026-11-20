@@ -91,4 +91,3 @@ def contributions(events):
     # Collapse repeated pairs in the same event/bin before bootstrap.
     size=len(descriptors)*B;combined=e*size+k;u,inv=np.unique(combined,return_inverse=True)
     values=np.bincount(inv,weights=v);return list(descriptors),u//size,u%size,values,response,memory,trace
-

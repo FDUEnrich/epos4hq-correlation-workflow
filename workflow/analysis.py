@@ -108,4 +108,3 @@ def analyze():
     save(HERE/'COMPLETE.json',dict(status='COMPUTATIONAL_PASS',signature=p['signature'],root=str(target),sha256=sha(target),utc=now(),systems=summary,
                                   limitations='Certified tagged subset only; sparse bins are not evidence of no effect; MB validation is generator-level, not detector calibration.'))
     print('EVOLUTION_ANALYSIS_PASS',flush=True)
-

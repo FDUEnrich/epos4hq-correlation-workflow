@@ -30,4 +30,3 @@ def load(path):return json.loads(Path(path).read_text())
 def read_events(path):
     with gzip.open(str(path),'rt') as f:
         for line in f:yield json.loads(line)
-

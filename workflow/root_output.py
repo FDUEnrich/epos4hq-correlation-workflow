@@ -45,4 +45,3 @@ def histogram_output(f,path,raw,rep,nevents=None,lo=0.,hi=math.pi):
             cv=np.cov(means[good],rowvar=False,ddof=1) if good.sum()>1 else np.full((len(raw),len(raw)),np.nan)
             f[path+'/event_mean']=th1(raw/n/width,np.diag(cv),lo,hi)
     return rawcov
-

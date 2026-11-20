@@ -55,4 +55,3 @@ def calibrate():
                                   definition='generator final ist0 charged-particle forward multiplicity; not detector V0M'))
     assert passed,'independent MB validation failed; centrality publication is blocked'
     print('CENTRALITY_VALIDATION_PASS',flush=True)
-
