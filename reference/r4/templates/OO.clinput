@@ -1,0 +1,44 @@
+set seedj 730122689 set seedi 222222222
+echo off
+rootcproot yesno
+system i
+ext1 -
+ext3 -
+ext4 -
+set gefac 1
+fname pathep /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/source/
+fname user1 /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/install/share/srcext/HQt/
+fname user2 /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/jobs/cluster_3771649/job_01152/histo/pilot.hq
+fname user3 /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/install/share/srcext/URt/
+fname pathpdf /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/install/share/src/TPt/
+fname histo /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/jobs/cluster_3771649/job_01152/histo/pilot.histo
+fname check /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/jobs/cluster_3771649/job_01152/check/pilot.check
+fname copy /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/jobs/cluster_3771649/job_01152/check/pilot.copy
+fname log /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/jobs/cluster_3771649/job_01152/check/pilot.log
+fname data /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/jobs/cluster_3771649/job_01152/check/pilot.data
+fname initl /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/install/share/src/KWt/aa.i
+fname inidi /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/install/share/src/TPt/di.i
+fname inidr /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/install/share/src/KWt/dr.i
+fname iniev /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/install/share/src/KWt/ev.i
+fname inirj /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/install/share/src/KWt/rj.i
+fname inics /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/install/share/src/TPt/cs.i
+fname inigrv /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/install/share/src/grv.i
+fname partab /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/install/share/srcext/YK/ptl6.data
+fname dectab /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/install/share/srcext/YK/dky6.data
+fname hpf /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/install/share/srcext/UR/tables.dat
+nodecay 1220
+nodecay -1220
+nodecay 120
+nodecay 130
+nodecay -20
+nodecay 14
+nodecay -14
+nodecay 16
+nodecay -16
+echo on
+input /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/install/share/config/parbf.i
+input /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/jobs/cluster_3771649/job_01152/pilot.optns
+input /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/install/share/src/KWn/paraf.i
+input /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/runtime/install/share/config/partx.i
+runprogram
+stopprogram

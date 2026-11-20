@@ -1,0 +1,8 @@
+universe = vanilla
+executable = /storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/launch.sh
+arguments = calibrate
+initialdir = /storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4
+output = /storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/logs/calibration_$(Cluster)_$(Process).out
+error = /storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/logs/calibration_$(Cluster)_$(Process).err
+log = /storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/logs/condor.log
+queue 1

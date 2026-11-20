@@ -1,0 +1,49 @@
+!EPOS4 configuration file
+ !to define the reaction and simulation options
+ !to define the output
+ !to add analysis plugins (optional)
+ !------------------------------------------------------------
+ ! PbPb collisions with hydro and hadronic cascade
+ !------------------------------------------------------------
+ application hadron !hadron-hadron, hadron-nucleus, or nucleus-nucleus collision
+ set laproj 82 !projectile atomic number
+ set maproj 207 !projectile mass number
+ set latarg 82 !target atomic number
+ set matarg 207 !target mass number
+ set ecms 5020 !sqrt(s)_pp
+ set istmax 25
+ set iranphi 1
+ ftime on 
+ !suppressed decays:
+ nodecays 250 140 -140 -240 240 -341 341 -441 441 2140 3240 3340 end
+ core full
+ hydro hlle
+ eos x3ff
+ hacas full
+ set ninicon 1
+ set nfull 4
+ set nfreeze 1
+ set modsho 1
+ set centrality 0
+ xinput srcext/HQ/hq.i
+ !core/corona activated
+ !hydro activated
+ !eos activated
+ !hadronic cascade activated
+ !number of initial conditions used for hydro evolution
+ !number of events
+ !number of freeze out events per hydro event
+ !certain printout every modsho events
+ ! 0=min bias
+ !---------------------------------------------------------------------------------------
+! Output
+ !---------------------------------------------------------------------------------------
+!print to screen
+ !print into Myfile
+ !print * 2
+ fillTree4(C1)
+ !set ihepmc 1
+
+! independent lineage-v5 shard; physics settings unchanged
+set seedj 100609996
+set seedi 222222222

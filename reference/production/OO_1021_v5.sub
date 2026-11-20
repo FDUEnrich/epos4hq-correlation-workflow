@@ -1,0 +1,17 @@
+universe = vanilla
+notification = Never
+initialdir = /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch
+executable = /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/launch.sh
+arguments = $(ClusterId) $(Process)
+output = /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/condor/job_$(ClusterId)_$(Process).out
+error = /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/condor/job_$(ClusterId)_$(Process).err
+log = /storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/condor/cluster_$(ClusterId).log
+should_transfer_files = NO
+getenv = False
+priority = 2147483647
++JobBatchName = "OO_v5_1021_100events_20000jobs"
++FDRunId = "OO_v5_output1021_20261021"
++FDLineageVersion = 5
++FDEventsPerJob = 100
+on_exit_hold = (ExitBySignal =?= True) || (ExitCode =!= 0)
+queue 20000

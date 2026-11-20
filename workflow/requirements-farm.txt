@@ -1,0 +1,4 @@
+# Server Python 3.6; isolated environment, never modify existing analysis envs.
+numpy==1.19.5
+uproot==4.1.9
+awkward==1.7.0

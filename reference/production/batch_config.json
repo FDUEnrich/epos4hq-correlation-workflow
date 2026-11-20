@@ -1,0 +1,16 @@
+{
+  "binary_sha256": "e509ba6eae8ac43b3ac085ea4c52d6a98de2cd2867d13c5976eb3964bc1c2ac7",
+  "events_per_job": 100,
+  "hq_sha256": "b11ff781a1187f864c772e43ae1ac0de26f2365b65fd2f7b0e96fa9267dcf6f4",
+  "jobs": 20000,
+  "node_policy": "No custom node/rank or CPU/memory/disk request; HTCondor site defaults apply",
+  "original_optns_sha256": "e8b1866959c5c4c28cfd37faed2241e63ddb37fa73000bc6b2ef8eb50f7ca24e",
+  "priority": 2147483647,
+  "run_id": "OO_v5_output1021_20261021",
+  "seed_base": 721000001,
+  "seed_stride": 7919,
+  "seedi": 222222222,
+  "skip_policy": "Unchanged hq.i iskip=1; no-charm attempts may not produce saved events",
+  "strict_source_policy": "origins1/2/3 explicit vertices; origin4 endpoint-companion separately labeled",
+  "total_requested_attempts": 2000000
+}

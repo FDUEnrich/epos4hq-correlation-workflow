@@ -1,0 +1,203 @@
+{
+  "files": {
+    "reference/EPOS_COPYING": {
+      "bytes": 35057,
+      "sha256": "df58b4bbdc1085422f56395573d030ed06b60cf9533729ca720906b8bfbbfc17",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/ccbar_lineage_pilot_20260921/large_v5repair_20261009_005500/full_source/COPYING"
+    },
+    "reference/production/CompareOriginSubtraction.C": {
+      "bytes": 18776,
+      "sha256": "42c5530c92f82ef66f7b7f9f1cc76f5fdff9a6443a73b705cdcf8d97459417ff",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/CompareOriginSubtraction.C"
+    },
+    "reference/production/OO_100events_v5.optns": {
+      "bytes": 1370,
+      "sha256": "bed0d608719a59915a582c7e7fec287e495cf13200685658ab6fab69763f7cf5",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/OO_100events_v5.optns"
+    },
+    "reference/production/OO_1021_v5.sub": {
+      "bytes": 771,
+      "sha256": "351f0b851510a0df009274fc775ef500b515bfa68e52a6b6bcae5d5b575d7c49",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/OO_1021_v5.sub"
+    },
+    "reference/production/PilotTrees.h": {
+      "bytes": 1532,
+      "sha256": "2eb6a140dee31f8a04196fb7d20713a91d9ffc7d67c72bcd5439fef3545b2ece",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/PilotTrees.h"
+    },
+    "reference/production/ValidateOO.C": {
+      "bytes": 4156,
+      "sha256": "90c7b0e4865884e7758964a7ec7c70b34d2e388087b76b323aee4d299dc826ca",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/ValidateOO.C"
+    },
+    "reference/production/batch_config.json": {
+      "bytes": 782,
+      "sha256": "76f838910defad001ff10f40a4b16767f1391488c4ea844889492ac27d6458b2",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/batch_config.json"
+    },
+    "reference/production/launch.sh": {
+      "bytes": 722,
+      "sha256": "a506c32405bc193273bd4873d9808b4f456eba8ba8567a6b170aada784454d74",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/launch.sh"
+    },
+    "reference/production/lineage_records.py": {
+      "bytes": 2529,
+      "sha256": "6b80c6992a987c191218e8aa3df84f84904d9f30bdb1f6af8a88c7f9bb7c3600",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/lineage_records.py"
+    },
+    "reference/production/worker.py": {
+      "bytes": 6988,
+      "sha256": "943e1c78566df3932369466b4c916866b4062f9e23e030584f6f5d38515026c1",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/OO/output_1021/_batch/worker.py"
+    },
+    "reference/r4/analysis.dag": {
+      "bytes": 259,
+      "sha256": "cd54f708fa78c70642ff777ff8dd9295e330f26c3f525b29eaa50368c6e0a03f",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/analysis.dag"
+    },
+    "reference/r4/analysis.py": {
+      "bytes": 21379,
+      "sha256": "f968191e97de1e5371b386e45f9eb1e680581c256c9b58d1e2914dddd65e1648",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/analysis.py"
+    },
+    "reference/r4/analysis.sub": {
+      "bytes": 542,
+      "sha256": "6be96528bbf4e3cffe4ed2954ef8ddb88854b5fdae6e01506f08fdf2ce71514f",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/analysis.sub"
+    },
+    "reference/r4/calibration.sub": {
+      "bytes": 550,
+      "sha256": "ddf5e673515e0f55551a669a372abdcbec62bbb6e60b0f4c9fe2f75369300a33",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/calibration.sub"
+    },
+    "reference/r4/campaign.py": {
+      "bytes": 20312,
+      "sha256": "950269ea8f05162f0aea1f249c8b209e2c48fd2492636cf668cb66dc5497d6a8",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/campaign.py"
+    },
+    "reference/r4/check_pilot.sub": {
+      "bytes": 552,
+      "sha256": "7d205a4f068280ddce06b273e0741c375ab25f7008c7d9f89e353b61873d7387",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/check_pilot.sub"
+    },
+    "reference/r4/core.py": {
+      "bytes": 10065,
+      "sha256": "ad6d4a7018c1b26f480f03af7448db1a24223b75c2deb56a6408443abfc0a8c6",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/core.py"
+    },
+    "reference/r4/idt.dt": {
+      "bytes": 75501,
+      "sha256": "1454b6292214d6d3dd34bf716a5f3276ada7e7ba30e9730d942e11eb3070b220",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/idt.dt"
+    },
+    "reference/r4/launch.sh": {
+      "bytes": 746,
+      "sha256": "12fb6939cc100034b970a7c4744ed93faa1794b3557d3ed9da16ab1e641aa95a",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/launch.sh"
+    },
+    "reference/r4/mb.sub": {
+      "bytes": 616,
+      "sha256": "da2b2bcaa1fd3bb8773ba0d78bd195a866c522c389d90bdec2c764dbc127a278",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/mb.sub"
+    },
+    "reference/r4/mb_config.py": {
+      "bytes": 1108,
+      "sha256": "9e4f73e0d6af6b9e463d929ea891523594038d96ca74c710a327652ccb8c3ce5",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/mb_config.py"
+    },
+    "reference/r4/pilot.sub": {
+      "bytes": 563,
+      "sha256": "5d12d9c580f9252f464a94c2830b06726a41d11a3d9b63221bc593e53f3e0315",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/pilot.sub"
+    },
+    "reference/r4/preflight.py": {
+      "bytes": 4788,
+      "sha256": "4e6b2803d208c66ab0e4d35273a1d68789350010ca5451647f5d1a49abd418ce",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/preflight.py"
+    },
+    "reference/r4/prepare_runtime.py": {
+      "bytes": 1230,
+      "sha256": "44ff36b2499ee73d7e1a38f4c7da3b33fddcb7a9f5886f91984ec41fcc8d2f49",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/prepare_runtime.py"
+    },
+    "reference/r4/requirements-farm.txt": {
+      "bytes": 123,
+      "sha256": "1a48f22c3324dab9a922603fdf1e4e2b2d42ebb2220238d8f39323cc91cb5861",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/requirements-farm.txt"
+    },
+    "reference/r4/reuse_cache.py": {
+      "bytes": 4063,
+      "sha256": "6b91b6bbd529aad0f1ca15b4af1c8790916aa11958377ebe15b35978ede230f8",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/reuse_cache.py"
+    },
+    "reference/r4/runtime_smoke.py": {
+      "bytes": 1672,
+      "sha256": "e959f5731814df27facc2f1676c5772d8df2244e27c76522d03e5ac08c96c2e2",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/runtime_smoke.py"
+    },
+    "reference/r4/runtime_smoke.sub": {
+      "bytes": 550,
+      "sha256": "2ab144c34c85572709eaee21d2d2d2f20b5908c0245fc104a2dbf9c28553aafa",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/runtime_smoke.sub"
+    },
+    "reference/r4/sources.sub": {
+      "bytes": 545,
+      "sha256": "208f1ef6547277b5c772e24f38529632a43bc336d8b86067325827ad177b479e",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/sources.sub"
+    },
+    "reference/r4/templates/OO.clinput": {
+      "bytes": 2733,
+      "sha256": "146e1df267a6b260be7af71eacadcf3537cfb4ee7de68d7703d5e15c0b33f93b",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/templates/OO.clinput"
+    },
+    "reference/r4/templates/OO.optns": {
+      "bytes": 1470,
+      "sha256": "ab3b9b024637e523fb9e709309621a409a8cfa9af743d21f3a283bc18a87f714",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/templates/OO.optns"
+    },
+    "reference/r4/templates/PbPb.clinput": {
+      "bytes": 3451,
+      "sha256": "77934870ff2f118df7e7268b4c6a2e6cdd186323cbfd91835c048d3c0c369aa6",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/templates/PbPb.clinput"
+    },
+    "reference/r4/templates/PbPb.optns": {
+      "bytes": 1476,
+      "sha256": "6b609fc71714a432821db9a10b60e68d96e9275c995752066b4899b837e35354",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/templates/PbPb.optns"
+    },
+    "reference/r4/test_core.py": {
+      "bytes": 4136,
+      "sha256": "286fff985277e63c4bbc3621b57d7ea771b8a7b0e2d3c44f4687ce6d3fbb71b2",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/test_core.py"
+    },
+    "reference/r4/test_mb_config.py": {
+      "bytes": 1371,
+      "sha256": "8646581589ee06360add69f520f9a14a72a490001fc9a87bf2c2500dbdcb56da",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/test_mb_config.py"
+    },
+    "reference/r4/test_reuse_cache.py": {
+      "bytes": 1349,
+      "sha256": "d98d7689540186f1bbf93d63912d484477dd5a66538308f066636a9e23a073f2",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/test_reuse_cache.py"
+    },
+    "reference/r4/test_statistics.py": {
+      "bytes": 2846,
+      "sha256": "2facf4ea135cb765b95d66d4a70465571c7ab749e12f7184b9a5393aa38203b1",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/test_statistics.py"
+    }
+  },
+  "scope": "read-only downloaded baseline; no simulation data or runtime logs",
+  "snapshot_date": "2026-11-20",
+  "excluded_generated_files": {
+    "reference/r4/analysis.dag.condor.sub": {
+      "bytes": 1261,
+      "sha256": "8a2c1b37d59c7f7c9c43ca702ccbdc654c27495fd2ec799325dc1d0f6eafde5d",
+      "source": "/storage/fdunphome/enrich/EPOS4HQ/initial_source_memory_20261116_r4/analysis.dag.condor.sub"
+    }
+  },
+  "excluded_private_reference": {
+    "name": "PbPb-127-260804.sub",
+    "sha256": "80984144197f64ef4ed81d03e67ec8e9dd288b401f4dcd4511af5c2768ea6f2a",
+    "reason": "Historical resource restrictions and personal notification address; source body is not published."
+  }
+}
