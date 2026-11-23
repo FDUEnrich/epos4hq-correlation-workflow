@@ -2,6 +2,8 @@
 
 中文运行说明。仓库整理自 2026-11-20 核对的服务器代码，提供模拟配置、精简 HTCondor 提交层、独立 MB 中心度和核心 Δφ 计算。**不会自动提交、释放、取消或覆盖已有任务。**
 
+开源许可证：**[GPL-3.0-or-later](LICENSE)**。原始 EPOS4HQ 的版权、来源及许可声明继续保留，见 [NOTICE.md](NOTICE.md)。
+
 ## 先看这三点
 
 1. **本版本是 r4 兼容性重构，不是新的物理结果。** 同源、切选、中心度、误差传播及 ROOT 对象定义保持原样。
@@ -59,4 +61,4 @@ cd epos4hq-correlation-workflow
 - [HQ 参数手册](https://klaus.pages.in2p3.fr/epos4/pdf/hqManual.pdf)
 - [ROOT 输出字段手册](https://klaus.pages.in2p3.fr/epos4/pdf/outputRoot.pdf)
 
-原始参考文件校验值见 `reference/SOURCE_MANIFEST.json`。EPOS 派生文件及数据表遵循其原始许可；本仓库不对用户自有代码擅自声明统一开源许可，保持私有，参见 `NOTICE.md`。
+原始参考文件校验值见 `reference/SOURCE_MANIFEST.json`。公开内容限于代码、配置、测试和说明，不含模拟数据、运行日志、密码或访问令牌。EPOS 派生文件及数据表继续保留原有许可和来源，参见 `NOTICE.md`。
