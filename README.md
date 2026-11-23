@@ -25,6 +25,7 @@ scripts/             创建独立计算目录、生成模拟批次、校验参�
 tests/               新旧回归、完整 ROOT 比较、精简提交层检查
 reference/           下载的旧版科学代码与模拟参考，仅作回归基线
 docs/                方法、运行步骤、已知问题、验收范围
+manuscripts/         按动量方向分区的历史中文初稿 PDF 及版本说明
 ```
 
 `reference/` 的旧脚本包含原服务器路径；**不要直接提交其中的历史 `.sub` 文件**。新提交文件由 `scripts/prepare_simulation.py` 或 `workflow/campaign.py` 生成，不添加 CPU/内存/磁盘请求、节点名单、Requirements、Rank、传输模式或并发限制。站点默认规则仍然适用。
@@ -52,7 +53,15 @@ cd epos4hq-correlation-workflow
 - [模拟配置与提交](docs/SIMULATION.zh.md)
 - [独立 MB、解析复用及分析运行](docs/RUNNING.zh.md)
 - [核心观测量定义](docs/METHODS.zh.md)
+- [核心观测量计算代码中文说明](docs/核心观测量计算代码说明.md)
 - [新旧一致性测试范围](docs/VALIDATION.zh.md)
+
+## 历史中文文章
+
+- [按动量方向分区的中文初稿 PDF（2026-09-12，47 页）](manuscripts/momentum-sector/Directional_System_Size_DeltaPhi_ZH_20260912.pdf)
+- [稿件版本、来源与方法差异说明](manuscripts/momentum-sector/README.zh.md)
+
+该稿按两个粒子的横向动量方向划分平行／垂直对顶双扇区，**不是形成位置选区稿**。这是原样归档的历史版本，不对应本仓库当前 r4 分析结果，也不是新计算或已发表论文。特别是其 OS−SS 附录采用分别归一化的 OS、SS 形状相减，不能混同于当前代码的净配对差或后来提出的逐事件净面积归一化。
 
 ## 官方资源与来源
 
@@ -61,4 +70,4 @@ cd epos4hq-correlation-workflow
 - [HQ 参数手册](https://klaus.pages.in2p3.fr/epos4/pdf/hqManual.pdf)
 - [ROOT 输出字段手册](https://klaus.pages.in2p3.fr/epos4/pdf/outputRoot.pdf)
 
-原始参考文件校验值见 `reference/SOURCE_MANIFEST.json`。公开内容限于代码、配置、测试和说明，不含模拟数据、运行日志、密码或访问令牌。EPOS 派生文件及数据表继续保留原有许可和来源，参见 `NOTICE.md`。
+原始参考文件校验值见 `reference/SOURCE_MANIFEST.json`。公开内容包括代码、配置、测试、说明和上述历史中文初稿；PDF 内含历史结果图，但不附原始模拟数据、运行日志、密码或访问令牌。EPOS 派生文件及数据表继续保留原有许可和来源，参见 `NOTICE.md`。
